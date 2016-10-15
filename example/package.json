@@ -4,6 +4,7 @@
   "description": "pryo example",
   "main": "index.js",
   "license": "MIT",
+  "generator-folder": "./generators",
   "dependencies": {
     "pryo": "file:../",
     "yeoman-generator": "^0.24.1"

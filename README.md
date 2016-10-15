@@ -18,6 +18,8 @@ Write [yeoman](http://yeoman.io/) generators in project instead of another packa
 
 Then use <code>&grave;npm bin&grave;/pryo app</code> to execute generator `generators/app/index.js`
 
+You can custom generators by add `generator-folder` field to `package.json`
+
 ### Command line options
 
 pryo use [yargs](http://yargs.js.org/) to parse command line optstrings, read the [document](http://yargs.js.org/docs/#parsing-tricks) to learn more
@@ -28,5 +30,5 @@ Read [example](example) for more detail.
 
 ## TODO
 
-- [ ] Custom generator folder
+- [x] Custom generators folder
 - [ ] Use other generator package
