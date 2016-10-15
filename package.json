@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "c4605 <bolasblack@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "bin": {
     "pryo": "./bin/pryo.js"
   },
@@ -13,5 +16,10 @@
     "lodash": "^4.16.4",
     "yargs": "^6.0.0",
     "yeoman-environment": "^1.6.5"
+  },
+  "devDependencies": {
+    "jest": "^16.0.1",
+    "mock-fs": "^3.11.0",
+    "yeoman-generator": "^0.24.1"
   }
 }
