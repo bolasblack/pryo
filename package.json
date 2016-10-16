@@ -6,7 +6,8 @@
   "author": "c4605 <bolasblack@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage && open coverage/lcov-report/index.html"
   },
   "bin": {
     "pryo": "./bin/pryo.js"

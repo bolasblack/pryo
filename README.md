@@ -20,6 +20,12 @@ Then use <code>&grave;npm bin&grave;/pryo app</code> to execute generator `gener
 
 You can custom generators by add `generator-folder` field to `package.json`
 
+### Use other installed generators
+
+Simply use `pryo` instead of `yo`.
+
+For example, I installed [generator-angular](https://github.com/yeoman/generator-angular), then you can execute <code>&grave;npm bin&grave;/pryo angular:controller user</code> to generate controller files.
+
 ### Command line options
 
 pryo use [yargs](http://yargs.js.org/) to parse command line optstrings, read the [document](http://yargs.js.org/docs/#parsing-tricks) to learn more
@@ -27,8 +33,3 @@ pryo use [yargs](http://yargs.js.org/) to parse command line optstrings, read th
 ### Example
 
 Read [example](example) for more detail.
-
-## TODO
-
-- [x] Custom generators folder
-- [ ] Use other generator package

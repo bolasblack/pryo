@@ -8,5 +8,8 @@
   "dependencies": {
     "pryo": "file:../",
     "yeoman-generator": "^0.24.1"
+  },
+  "devDependencies": {
+    "generator-angular": "^0.15.1"
   }
 }
