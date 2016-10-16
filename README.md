@@ -1,4 +1,4 @@
-# pryo
+# pryo [![Build Status](https://img.shields.io/travis/bolasblack/pryo/master.svg?style=flat)](https://travis-ci.org/bolasblack/pryo)
 
 Write [yeoman](http://yeoman.io/) generators in project instead of another package.
 
