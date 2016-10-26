@@ -1,6 +1,6 @@
 {
   "name": "pryo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapped yo for project",
   "main": "lib/index.js",
   "author": "c4605 <bolasblack@gmail.com>",
