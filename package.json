@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "author": "c4605 <bolasblack@gmail.com>",
   "license": "MIT",
+  "repository":{
+    "type": "git",
+    "url": "github:bolasblack/pryo"
+  },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage && open coverage/lcov-report/index.html"
