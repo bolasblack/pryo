@@ -5,26 +5,38 @@
   "main": "lib/index.js",
   "author": "c4605 <bolasblack@gmail.com>",
   "license": "MIT",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "github:bolasblack/pryo"
   },
   "scripts": {
-    "test": "jest",
+    "test": "NODE_ENV=test jest",
     "coverage": "jest --coverage && open coverage/lcov-report/index.html"
   },
-  "bin": {
-    "pryo": "./bin/pryo.js"
-  },
   "dependencies": {
-    "find-up": "^2.0.0",
-    "lodash": "^4.16.4",
-    "yargs": "^6.0.0",
-    "yeoman-environment": "^1.6.5"
+    "debug": "^4.1.1",
+    "find-up": "^3.0.0",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.2.0",
+    "lodash": "^4.17.11",
+    "yargs": "^13.2.2",
+    "yeoman-environment": "^2.3.4"
   },
   "devDependencies": {
-    "jest": "^16.0.1",
-    "mock-fs": "^3.11.0",
-    "yeoman-generator": "^0.24.1"
+    "@c4605/toolconfs": "^0.3.0",
+    "@types/debug": "^4.1.4",
+    "@types/find-up": "^2.1.1",
+    "@types/fs-extra": "^5.0.5",
+    "@types/inquirer": "^6.0.1",
+    "@types/jest": "^24.0.12",
+    "@types/lodash": "^4.14.123",
+    "@types/mem-fs": "^1.1.2",
+    "@types/node": "^11.13.7",
+    "@types/yeoman-generator": "^3.1.1",
+    "jest": "^24.7.1",
+    "jest-cli": "^24.7.1",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
   }
 }

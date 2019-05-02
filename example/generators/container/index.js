@@ -14,7 +14,7 @@ module.exports = class extends Generator {
   generateFile() {
     this.fs.copyTpl(
       this.templatePath('main.jsx'),
-      this.destinationPath(`scripts/components/${this.templateInfo.fileName}`),
+      this.destinationPath(`scripts/containers/${this.templateInfo.fileName}`),
       this.templateInfo,
     )
   }
@@ -25,7 +25,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('test.jsx'),
       this.destinationPath(
-        `scripts/components/__tests__/${this.templateInfo.fileName}`,
+        `scripts/containers/__tests__/${this.templateInfo.fileName}`,
       ),
       this.templateInfo,
     )
